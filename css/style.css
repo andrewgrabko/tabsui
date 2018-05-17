@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+    background: #30394c url('../img/bg.jpg') 50%;
+	background-size: cover;
+	font: 400 14px/1.6 'Lato', sans-serif;
+	color: #b7bacd;
+	padding-top: 146px;
+}
+
+/* Layout */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	border:0;
+	display: inline-block;
+	border-radius: 3px;
+	background-color:  #13e28d;
+	line-height: 55px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFF;
+	text-decoration: none;
+	padding: 0 35px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background-color: #ffdd3f;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-far{
+	max-width: 600px;
+	margin: 0 auto;
+	background: #212534;
+}
+.ba-far__top{
+	background: #2b3040;
+	padding:0 30px;	
+}
+.ba-tab.show {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+.ba-far__body:not(.show) {
+	display: none;
+}
+.ba-far__menu{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+.ba-tab {
+	display: inline-block;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    color: #b7bacd;
+}
+.ba-tab a {
+    color: currentColor;
+    text-decoration: none;
+    display: block;
+    padding:30px 0 30px;
+}
+.ba-tab svg {
+    fill: currentColor;
+}
+.ba-tab a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+.ba-far__body{
+	padding: 58px 35px 60px 50px;
+	display: flex;
+}
+.ba-far-cover{
+	flex-shrink: 0;
+	flex-basis: 160px;
+	
+}
+.ba-stars{
+	text-align: center;
+}
+.ba-far__info{
+	padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
